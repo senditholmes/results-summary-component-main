@@ -1,0 +1,150 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+.main-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-card {
+    display: flex;
+    height: 430px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.15);
+}
+
+
+.your-results-section {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    background-image: linear-gradient(
+        to top, hsl(241, 81%, 54%), 
+        hsl(252, 100%, 67%));
+    color: hsl(0, 0%, 90%);
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 160px;
+    width: 160px;
+    border: 1px;
+    background-image: linear-gradient(
+        to bottom, hsla(256, 72%, 46%, 1), 
+        hsla(241, 72%, 46%, 0));
+    border: 1px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.circle span {
+    color: white;
+    font-size: 4rem;
+}
+
+.circle p {
+    color: hsl(0, 0%, 60%);
+    align-self: center;
+}
+
+.your-results-content p {
+    color: hsl(0, 0%, 70%);
+    font-size: 14px;
+}
+
+.results-breakdown-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+}
+
+.summary-container {
+    display: flex;
+    width: 245px;
+    margin-top: 20px;
+    margin-top: 20px;
+}
+
+.summary-container h1 {
+    margin-left: 5px;
+}
+
+.breakdown-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    width: 250px;
+    height: 47px;
+    font-size: 0.8rem;
+}
+
+.breakdown-header p {
+    color: hsla(224, 30%, 27%, 0.7);
+}
+
+.breakdown-header p span {
+    color: hsla(224, 30%, 27%);
+    font-weight: bolder;
+}
+
+.breakdown-header.reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);
+    color: hsla(0, 100%, 67%, 0.8);;
+}
+
+.breakdown-header.memory {
+   background-color: hsla(39, 100%, 56%, 0.1);
+   color: hsla(39, 100%, 56%, 0.8);
+}
+
+.breakdown-header.verbal {
+    background-color: hsla(166, 100%, 37%, 0.1);
+    color: hsla(166, 100%, 37%, 0.8);
+}
+
+.breakdown-header.visual {
+    background-color: hsla(234, 85%, 45%, 0.1);
+    color: hsla(234, 85%, 45%, 0.8);
+}
+
+.button {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    height: 50px;
+    width: 250px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button p {
+    font-weight: 500;
+}
+
+.button:hover {
+    background-color: hsl(241, 81%, 54%);
+    cursor: pointer;
+}
+
+.button:active {
+    transform:scale(0.99);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
